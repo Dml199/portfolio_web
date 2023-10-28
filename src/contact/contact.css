@@ -1,0 +1,142 @@
+#contact_me{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:600px;
+    background-color:rgb(48, 45, 45);
+}
+
+.input_addr{
+    position:relative;
+display:flex;
+flex-direction:column;
+border-radius:10px;
+box-shadow:5px 5px 10px rgb(65, 63, 61);
+text-align:left;
+width:700px;
+background-color:rgb(39, 36, 36);
+height:420px;
+}
+
+.input_addr h2{
+padding:20px;
+transform:translateY(-30px);
+
+top:0px;
+color:whitesmoke;
+font-size:xx-large;
+
+    }
+
+
+.input_addr label{
+margin-left:50px;
+color:rgb(172, 167, 162);
+
+
+    }
+
+
+.input_addr input {
+    
+    max-width:50%;
+    margin:10px;
+    outline:none;
+    background-color: rgb(51, 49, 49);
+    color:white;
+    border:none;
+    background-color:rgb(39, 36, 36);
+    border-bottom:2px solid rgb(199, 4, 4);
+    animation:all 4.4s;
+
+    }
+.input_addr input:focus{
+
+        background-color:rgb(65, 60, 60);
+
+        }
+
+
+#msg input{
+    transform:translateX(107px);
+    width:80%;
+    height:150px;
+    background:linear-gradient(to right,#333131,#343442);
+    border:none;
+    border-bottom:2px solid rgb(199, 4, 4);
+    border-right:2px solid rgb(51, 49, 49);
+    border-top:2px solid rgb(51, 49, 49);
+    animation:all 4.4s;
+
+}
+
+#msg input:focus{
+    background:none;
+    background-color:#272727;
+    
+    
+}
+
+#msg label{
+    transform:translateX(160px);
+
+
+}
+
+#email_btn{
+    position:absolute;
+    height:40px;
+    width:80px;
+    bottom:20px;
+    right:70px;
+    background-color:rgb(61, 58, 58);
+    color:white;
+    padding:5px;
+    border-radius:7px;
+    opacity:0.9;
+    border:2px solid rgb(121, 115, 115);
+    box-shadow:2px 3px 5px  rgb(121, 115, 115);
+
+}
+
+
+#email_btn:active{
+    border:2px solid rgb(32, 31, 31);
+    background-color:rgb(48, 45, 45);
+    box-shadow:none;
+    }
+
+
+
+#contact_section{
+    width:100%;
+    height:100px;
+    background-color: rgb(36, 33, 33);
+}
+
+
+.svg{
+    width:40px;
+    height:40px;
+    padding:10px;
+    margin:10px;
+    border-radius:5px;
+
+}
+.svg:hover{
+    width:40px;
+    height:40px;
+    margin:10px;
+    background-color:#333131;
+}
+
+.contact_me_header{
+
+    border-radius:10px 10px 0px 0px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    height:90px;
+    background-color:rgb(70, 65, 65)
+    
+}

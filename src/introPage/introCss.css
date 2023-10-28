@@ -1,0 +1,143 @@
+#intro_sec{
+position:relative;
+display:flex;
+justify-content:center;
+align-items:center;
+height:900px;
+z-index:2
+}
+
+
+
+#descript{
+    width:65vw;
+    height:70vh;
+    background-color: rgb(24, 22, 22);
+    position:relative;
+    z-index:4;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transform-style:preserve-3d;
+}
+
+
+
+#left-top{
+    width:200px;
+    display:grid;
+    content:" ";
+    height:100px;
+    background-color:rgb(190, 30, 30);;
+    position:absolute;
+    bottom:-5px;
+    right:-5px;
+    z-index:3;
+    transform:translateZ(-1px);
+}
+
+
+#bottom-right{
+    width:200px;
+    content:" ";
+    height:100px;
+    background-color:rgb(190, 30, 30);
+    position:absolute;
+    top:-5px;
+    left:-5px;
+    z-index:3;
+    transform:translateZ(-1px);
+}
+
+
+
+
+
+#name{
+    width:25vw;
+    height:40vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:50px;
+    color:antiquewhite
+}
+
+
+#name h4{
+    font-size:16px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:100;
+}
+#exp_sect{
+    display:flex;
+    width:25vw;
+    height:40vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#separ{
+width:2px;
+background:red;
+height:400px;
+margin:10px;
+}
+
+
+#name h4{
+    display:inline;
+    font-size:18px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+#welcome{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:70px;
+    color:white;
+    font-weight:lighter;
+}
+
+#intro_paragr{
+  
+    font-size:14px;
+    font-weight:light;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:antiquewhite
+}
+
+
+.toggleColor_2{
+    color:rgb(250, 248, 248);
+}
+
+.toggleColor{
+    color:red;
+}
+
+.link{
+    color:red;
+    text-decoration:none;
+}
+
+
+@media (max-width:1028px ) {
+    #intro_paragr{
+        
+        width:170px;
+       font-size:10px;
+    }
+
+
+    #welcome{
+    
+       font-size:40px;
+    }
+}
