@@ -1,7 +1,6 @@
-@media (max-width:1028px) {
 
-    canvas
-    {  
 
-      }
+
+canvas{
+    transform:translateX(-150px);
 }

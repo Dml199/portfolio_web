@@ -1,5 +1,5 @@
 import React ,{useRef,useEffect} from "react";
-
+import "./anim.css"
 
 function Animation() {
 
@@ -79,8 +79,8 @@ function Animation() {
       s.x += s.vx /FPS;
       s.y += s.vy /FPS;
       
-      if (s.x < 0 || s.x > 180) s.vx = -s.vx;
-      if (s.y < 0 || s.y > 180) s.vy = -s.vy;
+      if (s.x < 0 || s.x > 300) s.vx = -s.vx;
+      if (s.y < 0 || s.y > 300) s.vy = -s.vy;
     }
   }
   
@@ -115,7 +115,7 @@ function Animation() {
   
     return (
       <div>
-      <canvas ref={canvasRef} width="200px" height="200px" />
+      <canvas ref={canvasRef} width="300px" height="300px" />
       </div>
     );
   }
