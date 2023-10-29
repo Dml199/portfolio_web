@@ -80,8 +80,8 @@ function Animation() {
       s.x += s.vx /FPS;
       s.y += s.vy /FPS;
       
-      if (s.x < 0 || s.x > 300) s.vx = -s.vx;
-      if (s.y < 0 || s.y > 420) s.vy = -s.vy;
+      if (s.x < 0 || s.x > 200) s.vx = -s.vx;
+      if (s.y < 0 || s.y > 160) s.vy = -s.vy;
     }
   }
   
@@ -116,7 +116,7 @@ function Animation() {
   
     return (
       <div>
-      <canvas ref={canvasRef} id="canvas" width="300px" height="420px"/>
+      <canvas ref={canvasRef} />
       </div>
     );
   }
