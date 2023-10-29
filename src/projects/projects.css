@@ -1,5 +1,5 @@
 #projects{
-    height:600px;
+    padding:50px;
     background-color:rgb(48, 45, 45);
     display:flex;
     gap:30px;
@@ -14,7 +14,8 @@
     border-radius:5px;
     background-color: rgb(39, 36, 36);
     box-sizing:content-box;
-    max-width:300px;
+    max-width:200px;
+    max-height:200px;
     box-shadow:2px 2px 8px rgb(61, 58, 58);
 
 }
@@ -85,17 +86,17 @@ z-index:1;
 
 @media (max-width:1028px){
     #projects{
+
         flex-direction:column;
     }
     .card{
-    
     overflow:hidden;
     max-width:200px;
-    max-height:170px;
+    max-height:200px;
     }
     .img{
-        width:60px;
-        height:60px;
+        width:100px;
+        height:100px;
     }
     .card h4{
      font-size:8px;

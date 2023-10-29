@@ -1,5 +1,4 @@
 import React ,{useRef,useEffect} from "react";
-import "./anim.css";
 
 
 function Animation() {
@@ -29,7 +28,7 @@ function Animation() {
     {
       stars.push({
         x:Math.random()*200,
-        y:Math.random()*160,
+        y:Math.random()*200,
         rad:Math.floor(Math.random()*3+1),
         vx:(Math.random()*20)-10,
         vy:(Math.random()*20)-10
@@ -80,8 +79,8 @@ function Animation() {
       s.x += s.vx /FPS;
       s.y += s.vy /FPS;
       
-      if (s.x < 0 || s.x > 290) s.vx = -s.vx;
-      if (s.y < 0 || s.y > 140) s.vy = -s.vy;
+      if (s.x < 0 || s.x > 200) s.vx = -s.vx;
+      if (s.y < 0 || s.y > 200) s.vy = -s.vy;
     }
   }
   
@@ -116,7 +115,7 @@ function Animation() {
   
     return (
       <div>
-      <canvas ref={canvasRef} style={ window.innerWidth > 1028? {width:"300px", height:"420px"}:{width:"200px",height:"162px"} }/>
+      <canvas ref={canvasRef} width="200px" height="200px" />
       </div>
     );
   }
