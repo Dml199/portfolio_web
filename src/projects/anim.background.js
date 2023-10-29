@@ -28,8 +28,8 @@ function Animation() {
     for(let i = 0; i<star_arr_size;++i)
     {
       stars.push({
-        x:Math.random()*300,
-        y:Math.random()*420,
+        x:Math.random()*200,
+        y:Math.random()*160,
         rad:Math.floor(Math.random()*3+1),
         vx:(Math.random()*20)-10,
         vy:(Math.random()*20)-10
@@ -80,8 +80,8 @@ function Animation() {
       s.x += s.vx /FPS;
       s.y += s.vy /FPS;
       
-      if (s.x < 0 || s.x > 200) s.vx = -s.vx;
-      if (s.y < 0 || s.y > 160) s.vy = -s.vy;
+      if (s.x < 0 || s.x > 290) s.vx = -s.vx;
+      if (s.y < 0 || s.y > 140) s.vy = -s.vy;
     }
   }
   
