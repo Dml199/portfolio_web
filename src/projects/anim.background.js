@@ -4,7 +4,7 @@ import "./anim.css"
 function Animation() {
 
   const stars=[];
-  const star_arr_size=10;
+  const star_arr_size=18;
   const FPS=40;
   var canvasRef=useRef(null);
 
