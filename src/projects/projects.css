@@ -13,11 +13,8 @@
     
     border-radius:5px;
     background-color: rgb(39, 36, 36);
-    min-width:200px;
-    min-height:350px;
-    max-height:450px;
+    box-sizing:content-box;
     max-width:300px;
-    overflow:hidden;
     box-shadow:2px 2px 8px rgb(61, 58, 58);
 
 }
@@ -30,8 +27,7 @@
 
 .img{
     
-    min-width:200px;
-    min-height:200px;
+
     margin:30px;
     z-index:10
     
@@ -85,3 +81,17 @@ z-index:1;
 .dont_display{
     display:none;
 }
+
+
+
+@media (max-width:1028px){
+    .card{
+    overflow:hidden;
+    max-width:200px;
+    }
+    .img{
+        width:100px;
+    }
+    
+    
+    }

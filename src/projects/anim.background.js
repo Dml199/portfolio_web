@@ -1,4 +1,5 @@
 import React ,{useRef,useEffect} from "react";
+import "./anim.css";
 
 
 function Animation() {
@@ -115,7 +116,7 @@ function Animation() {
   
     return (
       <div>
-      <canvas ref={canvasRef} width="300px" height="420px"/>
+      <canvas ref={canvasRef} id="canvas" width="300px" height="420px"/>
       </div>
     );
   }
