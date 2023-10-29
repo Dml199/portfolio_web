@@ -79,8 +79,8 @@ function Animation() {
       s.x += s.vx /FPS;
       s.y += s.vy /FPS;
       
-      if (s.x < 0 || s.x > 200) s.vx = -s.vx;
-      if (s.y < 0 || s.y > 200) s.vy = -s.vy;
+      if (s.x < 0 || s.x > 180) s.vx = -s.vx;
+      if (s.y < 0 || s.y > 180) s.vy = -s.vy;
     }
   }
   

@@ -1,9 +1,7 @@
 @media (max-width:1028px) {
 
     canvas
-    {  position:absolute;
-
-       z-index:1;
+    {  
 
       }
 }
