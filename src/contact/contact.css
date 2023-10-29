@@ -30,7 +30,7 @@ font-size:xx-large;
 
 
 .input_addr label{
-margin-left:50px;
+margin-left:20px;
 color:rgb(172, 167, 162);
 
 
@@ -39,7 +39,7 @@ color:rgb(172, 167, 162);
 
 .input_addr input {
     
-    max-width:50%;
+    
     margin:10px;
     outline:none;
     background-color: rgb(51, 49, 49);
@@ -50,17 +50,21 @@ color:rgb(172, 167, 162);
     animation:all 4.4s;
 
     }
+
+
 .input_addr input:focus{
 
         background-color:rgb(65, 60, 60);
 
         }
-
+#msg{
+    width:90%;
+}
 
 #msg input{
    
     width:50%;
-    height:150px;
+    height:100px;
     background:linear-gradient(to right,#333131,#343442);
     border:none;
     border-bottom:2px solid rgb(199, 4, 4);
@@ -150,32 +154,41 @@ color:rgb(172, 167, 162);
 
 
 
-@media ( max-width:730px) {
+@media ( max-width:1028px) {
     .svg {
-        width:25px;
-        height:25px;
-        
+        width:20px;
+        height:20px;
+        margin:5px;
     }
     .svg:hover {
         width:25px;
         height:25px;
         
     }
+    #inpt_msg{
+        width:100px;
+    }
     .contact_me_header{
-        height:70px;
+        height:50px;
         
     }
     .contact_me_header h2{
-        font-size:28px;
+        font-size:20px;
         
     }
 
     .input_addr{
-        max-width:500px;
+        max-width:400px;
     }
     #pass{
         display:flex;
-        flex-direction:column;
-        align-items:center;
+        flex-direction:row;
+        align-items:right;
+    }
+
+
+    #pass input{
+        margin-left:0px;
+        width:80px;
     }
 }

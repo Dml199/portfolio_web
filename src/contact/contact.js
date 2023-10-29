@@ -74,7 +74,7 @@ export default function ContactMe() {
               </div>
             <div id="msg">
               <label>Your message:</label>
-              <input
+              <input id="inpt_msg"
                 onChange={(e) => {
                   setData({ ...templateParams, message: e.target.value });
                 }}
