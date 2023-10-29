@@ -105,9 +105,10 @@ border-bottom:2px solid red;
 #descr_text h1{
     margin:0px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size:70px;
+    font-size:50px;
     color:antiquewhite;
     font-weight:lighter;
+    animation:all 2s;
 }
 
 
@@ -163,4 +164,16 @@ color:antiquewhite;
 .translate_1{
     
     opacity:1;
+}
+
+
+@media (max-width:983px){
+
+    
+#descr_text h1{
+    margin:0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:40px;
+
+}
 }

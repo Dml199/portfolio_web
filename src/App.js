@@ -14,7 +14,7 @@ function App() {
 
   },[])
 
-  if(false)
+  if(state)
   {return <div id ="loader_container"><div id="loader"></div></div>}
 
   return (

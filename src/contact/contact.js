@@ -56,7 +56,7 @@ export default function ContactMe() {
           </div>
 
           <form onSubmit={handleSubmit}>
-            <div id="pass"></div>
+            <div id="pass">
             <label for="email">Your name:</label>
             <input
               onChange={(e) => {
@@ -71,7 +71,7 @@ export default function ContactMe() {
               }}
               id="email"
             ></input>
-
+              </div>
             <div id="msg">
               <label>Your message:</label>
               <input
