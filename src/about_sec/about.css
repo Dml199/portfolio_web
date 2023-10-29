@@ -209,4 +209,17 @@ font-size:14px;
 #btn{
     font-size:10px;
 }
+
+#descr_text_2{
+
+}
+.pr_bar {
+  width: 100%;
+  text-align: center;
+  height:10px;
+
+}
+.pr_bar_desc{
+font-size:10px;
+}
 }
