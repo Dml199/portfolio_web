@@ -116,7 +116,7 @@ function Animation() {
   
     return (
       <div>
-      <canvas ref={canvasRef} />
+      <canvas ref={canvasRef} style={ window.innerWidth > 1028? {width:"300px", height:"420px"}:{width:"200px",height:"162px"} }/>
       </div>
     );
   }
