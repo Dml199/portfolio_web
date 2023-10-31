@@ -14,12 +14,13 @@ function App() {
 
   },[])
 
-  if(false)
-  {return <div id ="loader_container"><div id="loader"></div></div>}
+  if(state)
+  {return <div id ="loader_container"><div id="loader"></div>
+  <div id="loading_text">Loading...</div>
+  </div>}
 
   return (
     <div className="App">
-
        <Introsec/>
         <About/>
         <ProjectSec/>

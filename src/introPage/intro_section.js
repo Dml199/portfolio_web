@@ -41,7 +41,7 @@ function IntroSection (){
                      
                     <div id="separ"></div>
                     <div id ="exp_sect"><h4 id="welcome">Welcome.<br/><p id="intro_paragr">
-                        My name is Dmitry and i am junior frontend/backend developer with 1 year of experience. Here you can  learn about my projects, technologies i'm familiar with and <a href=" " className='link'>contact</a> me. </p>
+                        My name is Dmitry and i am junior frontend/backend developer with 1 year of experience. Here you can  learn about my projects, technologies i'm familiar with and <a href="#contact_me" className='link'>contact</a> me. </p>
                     </h4></div>
                     <div id="bottom-right"></div>
                 </div>
